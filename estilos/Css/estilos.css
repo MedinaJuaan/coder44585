@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    background-color: whitesmoke;
+}
+header{
+    height: 250px;
+    background-color: #A6A8AB;
+        max-width: 100%;
+        height: auto;
+
+    }
+    footer{
+        height: 250px;
+        background-color: #A6A8AB;
+            max-width: 100%;
+            height: auto;
+
+    }
+    .img-logo{
+        height:92px ;
+        width: 239px;
+    }
+
+.banner1, .banner2, .banner3{
+    position: relative;
+}
+.textos-banner {
+    position: absolute;
+    top: 50px;
+    z-index: 999;
+    text-align: center;
+    
+}
+
+.img-foo{
+    width: 92px;
+    height: 92px;
+}
+.img-gal{
+    height: 1080px;
+}
+

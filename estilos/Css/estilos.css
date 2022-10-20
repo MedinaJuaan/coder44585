@@ -7,43 +7,99 @@
 body {
     font-family: 'Inter', sans-serif;
     font-family: 'Raleway', sans-serif;
-    background-color: whitesmoke;
+    background-color: rgba(91, 78, 78, 0.121);
 }
+    /* HEADER MODIFICACIONES*/
+
 header{
     height: 250px;
     background-color: #A6A8AB;
-        max-width: 100%;
-        height: auto;
-
-    }
-    footer{
-        height: 250px;
-        background-color: #A6A8AB;
-            max-width: 100%;
-            height: auto;
+    max-width: 100%;
+    height: auto;
 
     }
     .img-logo{
         height:92px ;
         width: 239px;
     }
+    /* FOOTER MODIFICACIONES*/
 
-.banner1, .banner2, .banner3{
-    position: relative;
+footer{
+      height: 250px;
+       background-color: #A6A8AB;
+       max-width: 100%;
+       height: auto;
+
+    }
+    .img-foo{
+        width: 92px;
+        height: 92px;
+    }
+    /*BANNERS INICIO*/
+
+.banner1{
+    background-image: url(../../imagenes/banner1.png);
+    background-size: cover;
+    background-position: center center;
+    height:70vh;
 }
-.textos-banner {
-    position: absolute;
-    top: 50px;
-    z-index: 999;
-    text-align: center;
-    
+.banner2{
+    background-image: url(../../imagenes/banner2.png);
+    background-size: cover;
+    background-position: center center;
+    height:70vh;
+}
+.banner3{
+    background-image: url(../../imagenes/banner3.png);
+    background-size: fixed;
+    background-position: center center;
+    height:70vh;
 }
 
-.img-foo{
-    width: 92px;
-    height: 92px;
-}
-.img-gal{
-    height: 1080px;
+    /*MODIFICACION CARROUSEL GALERIA*/
+
+.carrousel{
+    text-align: -webkit-center;
 }
 
+    /*BACKGROUND FORMULARIO*/
+
+.form-img{
+    background-image: url(../../imagenes/Control_de_acceso.png);
+    background-size: cover;
+    background-position: center center;
+    height:100vh;
+}
+
+/* ANIMACIONES(prueba)*/
+
+.slide-in-left {
+	-webkit-animation: slide-in-left 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: slide-in-left 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+ @-webkit-keyframes slide-in-left {
+    0% {
+      -webkit-transform: translateX(-1000px);
+              transform: translateX(-1000px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateX(0);
+              transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  @keyframes slide-in-left {
+    0% {
+      -webkit-transform: translateX(-1000px);
+              transform: translateX(-1000px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateX(0);
+              transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  

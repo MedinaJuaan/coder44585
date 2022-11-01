@@ -9,7 +9,7 @@ body {
     font-family: 'Raleway', sans-serif;
     background-color: rgba(91, 78, 78, 0.121);
 }
-    /* HEADER MODIFICACIONES*/
+    /*HEADER*/
 
 header{
     height: 250px;
@@ -18,11 +18,11 @@ header{
     height: auto;
 
     }
-    .img-logo{
+    .header-logo{
         height:92px ;
         width: 239px;
     }
-    /* FOOTER MODIFICACIONES*/
+    /*FOOTER*/
 
 footer{
       height: 250px;
@@ -35,7 +35,7 @@ footer{
         width: 92px;
         height: 92px;
     }
-    /*BANNERS INICIO*/
+    /*BANNERS*/
 
 .banner1{
     background-image: url(../../imagenes/banner1.png);
@@ -65,7 +65,7 @@ footer{
     /*BACKGROUND FORMULARIO*/
 
 .form-img{
-    background-image: url(../../imagenes/Control_de_acceso.png);
+    background-image: url(../../imagenes/alarma.png);
     background-size: cover;
     background-position: center center;
     height:100vh;
@@ -102,4 +102,34 @@ footer{
       opacity: 1;
     }
   }
+  /*fuentes y colores*/
+  h1{
+    color: #000971 ;
+    font-weight: 700;
+  }
+  h2{
+  font-weight: 700;
+  text-decoration:underline
+ }
+  p{
+    color: black;
+    font-size: 20px;
+  }
+  h3{
+    font-size: 20px;
+  }
+ h4{
+    font-size: 25px;
+    color:steelblue
+ }
+ h5{
+    font-size: 25px;
+    color:coral;
+    font-weight:bold;
+ }
+ .p-galeria{
+    color:salmon;
+    font-weight: 600;
+
+ }
   

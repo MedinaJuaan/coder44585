@@ -1,0 +1,25 @@
+{
+  "name": "paquete_proyecto",
+  "version": "1.0.0",
+  "description": "Intruduccion sass a mi proyecto",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "node-sass --include-path scss estilos/sass/main.scss estilos/css/main.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MedinaJuaan/coder44585.git"
+  },
+  "author": "Juan Medina",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MedinaJuaan/coder44585/issues"
+  },
+  "homepage": "https://github.com/MedinaJuaan/coder44585#readme",
+  "dependencies": {
+    "node-sass": "^7.0.3",
+    "nodemon": "^2.0.20"
+  }
+}

@@ -4,6 +4,10 @@
     background-color: #A6A8AB;
     max-width: 100%;
     height: auto;
+    &-anchor{
+        font-size: $fuente1;
+        font-weight: $ancho2;
+    }
     &-logo{
         height:92px ;
         width: 239px;
